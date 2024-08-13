@@ -27,7 +27,7 @@ body {
 #search-input {
     width: 30%;
     height: 37px;
-    padding: 2px;
+    padding: 5px 2px 2px 5px;
     font-size: 9px;
     border-radius: 10px;
     border: 1px solid #ccc;
@@ -131,4 +131,124 @@ body {
     bottom: 0;
     right: 0;
     left: 0;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    #search-input {
+        width: 45%;
+        height: 37px;
+        padding: 5px 2px 2px 5px;
+        font-size: 9px;
+        border-radius: 10px;
+        border: 1px solid #ccc;
+        border-right: none;
+        margin-bottom: 6px;
+    }
+
+    .contain {
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid rgb(192, 189, 189);
+        border-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        background-color: #fff;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-bottom: -100px;
+        /* text-align: center; */
+        justify-content: center;
+        align-items: center;
+        margin-left: 135px;
+        position: inherit;
+        padding-right: 15px;
+    }
+
+    .contain p {
+        font-size: 9px;
+        color: #aaa;
+        font-weight: 900;
+    }
+
+    .contain h3 {
+        font-size: 16px;
+        font-weight: 75px;
+    }
+
+    .a,
+    .b,
+    .c,
+    .d {
+        margin-top: 20px;
+    }
+
+    .b,
+    .c,
+    .d {
+        border-left: none;
+        padding-left: 10px;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+
+    .container h1 {
+        color: #fff;
+        margin-left: -34px;
+    }
+
+    #search-form {
+        margin-bottom: 50px;
+        margin-left: -32px;
+    }
+
+    #search-input {
+        width: 30%;
+        height: 37px;
+        padding: 5px 2px 2px 5px;
+        font-size: 9px;
+        border-radius: 10px;
+        border: 1px solid #ccc;
+        border-right: none;
+        margin-bottom: 6px;
+    }
+
+    #search-form {
+        margin-bottom: 50px;
+    }
+
+    #search-input {
+        width: 45%;
+        height: 37px;
+        padding: 5px 2px 2px 5px;
+        font-size: 9px;
+        border-radius: 10px;
+        border: 1px solid #ccc;
+        border-right: none;
+        margin-bottom: 6px;
+    }
+
+    .contain {
+        max-width: 250px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid rgb(192, 189, 189);
+        border-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        background-color: #fff;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-bottom: -100px;
+        /* text-align: center; */
+        justify-content: center;
+        align-items: center;
+        margin-left: 38px;
+        position: inherit;
+        padding-right: 15px;
+    }
 }
