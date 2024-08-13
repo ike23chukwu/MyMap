@@ -4,8 +4,6 @@ L.tileLayer('https://api.maptiler.com/maps/openstreetmap/{z}/{x}/{y}.jpg?key=4ks
     attribution: '<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
 }).addTo(map);
 
-var
-
 var marker = L.marker([51.5, -0.09]).addTo(map);
 
 var circle = L.circle([51.508, -0.11], {
