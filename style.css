@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding-left: 40px;
+    background: url(pattern-bg-desktop.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 100px;
+    border: 1px solid #ddd;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container h1 {
+    color: #fff;
+}
+
+#search-form {
+    margin-bottom: 50px;
+}
+
+#search-input {
+    width: 30%;
+    height: 37px;
+    padding: 2px;
+    font-size: 9px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    border-right: none;
+    margin-bottom: 6px;
+}
+
+#search-input:focus {
+    border-color: rgb(108, 107, 107);
+}
+
+#search-btn {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 13px;
+    cursor: pointer;
+    background-color: rgb(93, 93, 207);
+    color: #fff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 0px 0px 0px -13px;
+    font-size: 15px;
+}
+
+#search-btn:hover {
+    background-color: #ccc;
+}
+
+.fa-search {
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+
+
+#map {
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+#ip-info {
+    margin-top: 20px;
+}
+
+#ip-info p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contain {
+    max-width: 750px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(192, 189, 189);
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: -100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 360px;
+    position: inherit;
+}
+
+.contain p {
+    font-size: 9px;
+    color: #aaa;
+    font-weight: 900;
+}
+
+.contain h3 {
+    font-size: 16px;
+    font-weight: 75px;
+}
+
+.a {
+    margin-left: 40px;
+}
+
+.b,
+.c,
+.d {
+    margin-left: 69px;
+}
+
+.b,
+.c,
+.d {
+    border-left: 1px solid rgb(202, 198, 198);
+    padding-left: 15px;
+    height: 75px;
+}
+
+#map {
+    position: inherit;
+    top: 0px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
